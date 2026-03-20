@@ -41,7 +41,7 @@ export const projects = [
     tags: ['Next.js', 'Node.js', 'MySQL', 'TailwindCSS', 'MongoDB', 'Express'],
     liveUrl: 'https://www.edulinks.io/',
     githubUrl: '#',
-    image: '/src/public/images/edulinksmain.png',
+    image: '/images/edulinksmain.png',
   },
   {
     id: 2,
@@ -51,7 +51,7 @@ export const projects = [
     ],
     liveUrl: 'https://disciplefirst.com/app/',
     githubUrl: 'https://github.com/Anubhav990/DiscipleFirst',
-    image: '/src/public/images/disciplefirst.png',
+    image: '/images/disciplefirst.png',
   },
 
   {
@@ -61,7 +61,7 @@ export const projects = [
     tags: ['React.js', 'TailwindCSS', 'PostgreSQL', 'Supabase'],
     liveUrl: 'https://lock-tech-fitness.vercel.app/',
     githubUrl: 'https://github.com/Anubhav990/lock-TechFitness',
-    image: '/src/public/images/locktechfitness.png',
+    image: '/images/locktechfitness.png',
   },
   {
     id: 4,
@@ -70,7 +70,7 @@ export const projects = [
     tags: ['React', 'Strapi', 'GraphQL', 'AWS'],
     liveUrl: 'https://property-pro-ecru.vercel.app/',
     githubUrl: 'https://github.com/primedepthlabs/propertyproweb',
-    image: '/src/public/images/proproperty.png',
+    image: '/images/proproperty.png',
   },
   {
     id: 5,
@@ -79,7 +79,7 @@ export const projects = [
     tags: ['Next.js', 'Supabase', 'Tailwind CSS'],
     liveUrl: 'https://pulsepeak-one.vercel.app/',
     githubUrl: 'https://github.com/harjaapdhillon16/pulsepeak',
-    image: '/src/public/images/pulsepeak.png',
+    image: '/images/pulsepeak.png',
   },
   {
     id: 6,
@@ -88,7 +88,7 @@ export const projects = [
     tags: ['Next.js', 'Supabase', 'Tailwind CSS'],
     liveUrl: 'https://the-brain-burners-website.vercel.app/',
     githubUrl: 'https://github.com/Anubhav990/the-brain-burners-website',
-    image: '/src/public/images/tbbwebapp.png',
+    image: '/images/tbbwebapp.png',
   },
 ]
 
