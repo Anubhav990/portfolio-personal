@@ -100,7 +100,7 @@ export const experience = [
 ]
 
 export const clients = [
-  'ClientOne', 'BrandTwo', 'StudioThree', 'AgencyFour', 'TechFive', 'CorpSix',
+  'Posterized', 'DiscipleFirst', 'NimbusDefenseAcademy', 'WokToGo', 'PrimeDepthLabs', 'Pulsepeak AI',
 ]
 
 export const marqueeSkills = [
@@ -108,7 +108,7 @@ export const marqueeSkills = [
 ]
 
 export const social = [
-  { name: 'X / Twitter', href: '#' },
-  { name: 'LinkedIn', href: '#' },
-  { name: 'GitHub', href: '#' },
+  { name: 'X / Twitter', href: 'https://x.com/Anubhav990' },
+  { name: 'LinkedIn', href: 'https://www.linkedin.com/in/anubhav-gupta-2ba294235/' },
+  { name: 'GitHub', href: 'https://github.com/Anubhav990' },
 ]
