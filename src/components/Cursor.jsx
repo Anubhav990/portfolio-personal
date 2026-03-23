@@ -1,7 +1,17 @@
+import { useEffect, useState } from 'react'
 import { useCursor } from '../hooks/useCursor'
 
 export default function Cursor() {
+  const [isDesktop, setIsDesktop] = useState(false)
+
+  useEffect(() => {
+    setIsDesktop(window.innerWidth >= 768)
+  }, [])
+
   const { cursorRef, trailRef } = useCursor()
+
+  if (!isDesktop) return null
+
   return (
     <>
       <div

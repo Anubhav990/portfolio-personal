@@ -10,6 +10,11 @@
     cursor: none;
   }
 
+  @media (max-width: 768px) {
+    body { cursor: auto; }
+    a, button { cursor: pointer; }
+  }
+
   ::-webkit-scrollbar { width: 4px; }
   ::-webkit-scrollbar-track { @apply bg-bg; }
   ::-webkit-scrollbar-thumb { @apply bg-accent; }

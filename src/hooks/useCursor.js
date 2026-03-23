@@ -5,6 +5,9 @@ export function useCursor() {
   const trailRef  = useRef(null)
 
   useEffect(() => {
+    // Don't run on touch/mobile devices
+    if (window.innerWidth < 768) return
+
     const cursor = cursorRef.current
     const trail  = trailRef.current
     if (!cursor || !trail) return
