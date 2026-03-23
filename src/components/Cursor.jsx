@@ -1,16 +1,10 @@
-import { useEffect, useState } from 'react'
 import { useCursor } from '../hooks/useCursor'
 
 export default function Cursor() {
-  const [isDesktop, setIsDesktop] = useState(false)
-
-  useEffect(() => {
-    setIsDesktop(window.innerWidth >= 768)
-  }, [])
-
   const { cursorRef, trailRef } = useCursor()
 
-  if (!isDesktop) return null
+  // Render nothing on mobile — no DOM elements at all
+  if (typeof window !== 'undefined' && window.innerWidth < 768) return null
 
   return (
     <>

@@ -34,17 +34,9 @@ export const bio = [
 ];
 
 export const projects = [
+
   {
     id: 1,
-    name: 'Edulinks AI',
-    description: 'An AI-powered educational platform built to make learning more accessible, interactive, and personalized for students and learners.',
-    tags: ['Next.js', 'Node.js', 'MySQL', 'TailwindCSS', 'MongoDB', 'Express'],
-    liveUrl: 'https://www.edulinks.io/',
-    githubUrl: '#',
-    image: '/images/edulinksmain.png',
-  },
-  {
-    id: 2,
     name: 'DiscipleFirst Mobile App',
     description: 'A mobile application developed to support users with a smooth, responsive, and goal-focused experience through modern app development practices.',
     tags: ['React Native', 'APIs', 'TypeScript', 'Expo', 'NativeWind'
@@ -55,13 +47,22 @@ export const projects = [
   },
 
   {
-    id: 3,
+    id: 2,
     name: 'Lock-Tech Fitness Web App',
     description: 'A fitness-focused web application designed to share workout knowledge, health insights, and technology-driven solutions for better training and lifestyle habits.',
     tags: ['React.js', 'TailwindCSS', 'PostgreSQL', 'Supabase'],
     liveUrl: 'https://lock-tech-fitness.vercel.app/',
     githubUrl: 'https://github.com/Anubhav990/lock-TechFitness',
     image: '/images/locktechfitness.png',
+  },
+  {
+    id: 3,
+    name: 'Edulinks AI',
+    description: 'An AI-powered educational platform built to make learning more accessible, interactive, and personalized for students and learners.',
+    tags: ['Next.js', 'Node.js', 'MySQL', 'TailwindCSS', 'MongoDB', 'Express'],
+    liveUrl: 'https://www.edulinks.io/',
+    githubUrl: '#',
+    image: '/images/edulinksmain.png',
   },
   {
     id: 4,

@@ -81,7 +81,7 @@ function WorkCard({ project }) {
             href={project.liveUrl}
             target="_blank"
             rel="noreferrer"
-            className="flex items-center gap-1.5 text-sm text-white/70 hover:text-accent transition-colors duration-200"
+            className="flex items-center gap-1.5 text-sm text-green-500 hover:text-accent transition-colors duration-200"
           >
             <IconExternalLink /> Live Demo
           </a>
